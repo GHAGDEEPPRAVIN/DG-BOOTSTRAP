@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Bootstrap Template Demo</title>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+    <!-- bootstrap css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap bundle js file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- bootstrap icon file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- remix icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- navbar starts -->
+
+    <div class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+        <div class="container pt-3 pb-3">
+
+            <div class="navbar-brand">Active.</div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav w-100 d-flex justify-content-end">
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link text-success">Home</a></li>
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link">Servies</a></li>
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link">Blog</a></li>
+                    <li class="nav-item dropdown ms-lg-3">
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item">Dropdown 1</a></li>
+                            <li><a class="dropdown-item">Deep Dropdown</a></li>
+                            <li><a class="dropdown-item">Dropdown 2</a></li>
+                            <li><a class="dropdown-item">Dropdown 3</a></li>
+                            <li><a class="dropdown-item">Dropdown 4</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item ms-lg-3"><a href="" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- offcanvas starts -->
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Active.</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav w-100 d-flex justify-content-end">
+                <li class="nav-item"><a href="" class="nav-link text-success">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Servies</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item">Dropdown 1</a></li>
+                        <li><a class="dropdown-item">Deep Dropdown</a></li>
+                        <li><a class="dropdown-item">Dropdown 2</a></li>
+                        <li><a class="dropdown-item">Dropdown 3</a></li>
+                        <li><a class="dropdown-item">Dropdown 4</a></li>
+                    </ul>
+
+                </li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- offcanvas ends -->
+
+    <!-- navbar ends -->
+
+
+    <!-- banner starts -->
+
+    <div class="container-fluid">
+        <div class="container" id="banner">
+            <div class="row" id="rows">
+                <div class="col-sm-mg-12 col-lg-4" id="column1">
+                    <span>Welcome</span>
+                    <h2>Excepteur sint occaecat cupidatat non proident</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <a href="" class="btn" type="button">Gets Started</a>
+                </div>
+                <div class="col-sm-mg-12 col-lg-7" id="column2">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/bannerimg.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/bannerimg1.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/bannerimg2.jpg" class="d-block w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner ends -->
+
+    <!-- our mission starts -->
+
+    <div class="mission container-fluid bg-light">
+        <div class="missioncontainer container">
+            <div class="missionrow row" style="height: auto;">
+                <div class="missioncol col-sm-mg-12 col-lg-5">
+                    <span>Our Mission</span>
+                    <h2>The Big Oxmox advised her not to do so, because there were thousands.</h2>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
+                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli.</p>
+                    <a href="" class="btn" type="button">Gets Started</a>
+                </div>
+                <div class="missionimg col-sm-mg-12 col-lg-6 p-0">
+                    <img src="images/missionimg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- our mission ends -->
+
+    <!-- three opts starts -->
+
+    <div class="threeopts container-fluid bg-light">
+        <div class="threeoptscontainer container" style="height: auto;">
+            <div class="threeoptsrow row">
+                <div class="threeoptscol1 col-sm-md-12 col-lg-3">
+                    <i class="bi bi-bullseye"></i> <br> 
+                    <span>Technology</span>
+                    <p>Separated they live in Bookmarksgrove right at the coast</p>
+                </div>
+                <div class="threeoptscol2 col-sm-md-12 col-lg-3">
+                    <i class="bi bi-command"></i> <br>
+                    <span>Web Design</span>
+                    <p>Separated they live in Bookmarksgrove right at the coast</p>
+                </div>
+                <div class="threeoptscol3 col-sm-md-12 col-lg-3">
+                    <i class="bi bi-bar-chart-line"></i> <br>
+                    <span>Branding</span>
+                    <p>Separated they live in Bookmarksgrove right at the coast</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- three opts ends -->
+
+    <!-- why us starts -->
+
+    <div class="whyus container-fluid bg-light">
+        <div class="whyuscontainer container">
+            <div class="whyusrow row" style="height: auto;">
+                <div class="col-sm-md-12 col-lg-6" style="padding: 20px 0px;">
+                    <img src="images/handwatch.jpg" alt="">
+                </div>
+                <div class="col-sm-md-12 col-lg-5">
+                    <span>Why Us</span>
+                    <h3>Far far away Behind the Word Mountains</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    <p>There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    
+                    <div class="row">
+                        <div class="col-3">
+                            <h2>3,919</h2>
+                            <hr style="color: green; width: 30%; height: 2px;">
+                            <span>Coffee</span>
+                        </div>
+                        <div class="col-3">
+                            <h2>2,831</h2>
+                            <hr style="color: green; width: 30%; height: 2px;">
+                            <span>Codes</span>
+                        </div>
+                        <div class="col-3">
+                            <h2>1,914</h2>
+                            <hr style="color: green; width: 30%; height: 2px;">
+                            <span>Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- why us ends -->
+
+    <!-- blog starts -->
+
+    <div class="blog container-fluid">
+        <div class="blogcontainer container">
+            
+            <span>Recent Posts</span>
+            <h3>Blog Posts</h3>
+
+            <div class="blogrow row">
+                <div class="blogcol1 col-sm-12 col-md-6 pt-sm-md-4 col-lg-4">
+                    <div class="card">
+                            <img src="images/blogimg1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <span class="card-title">Development • July 20, 2020</span>
+                            <h4>There live the blind texts they live</h4>
+                            <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <hr>
+                            <div class="profile">
+                                <img src="images/blogprofile1.jpg" alt="">
+                                <div>
+                                    <h5>Winston Gold</h5>
+                                    <span>Lead Product Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blogcol2 col-sm-12 col-md-6 pt-sm-md-4 col-lg-4">
+                    <div class="card">
+                            <img src="images/blogimg2.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <span class="card-title">Development • July 20, 2020</span>
+                            <h4>There live the blind texts they live</h4>
+                            <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <hr>
+                            <div class="profile">
+                                <img src="images/blogprofile2.jpg" alt="">
+                                <div>
+                                    <h5>Winston Gold</h5>
+                                    <span>Lead Product Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blogcol3 col-sm-12 col-md-6 pt-sm-md-4 col-lg-4">
+                    <div class="card">
+                            <img src="images/blogimg3.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <span class="card-title">Development • July 20, 2020</span>
+                            <h4>There live the blind texts they live</h4>
+                            <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <hr>
+                            <div class="profile">
+                                <img src="images/blogprofile3.jpg" alt="">
+                                <div>
+                                    <h5>Winston Gold</h5>
+                                    <span>Lead Product Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- blog ends -->
+
+    <!-- nav tab starts -->
+
+    <div class="navtab container-fluid bg-light">
+        <div class="navtabcontaner container">
+            <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-light me-3" id="v-pills-tab">
+                    <div class="row">
+                        <div class="col-sm-md-12 col-lg-4">
+                            <a class="navtabdis nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button">
+                                    <div class="navtabi">
+                                    <i class="bi bi-alarm"></i>
+                                </div>
+                                <div class="navtabdisplay">
+                                    <h5>Modern and clean design</h5>
+                                    <p>Far far away, behind the word mountains, far from the countries .</p>
+                                </div>
+                            </a>
+                            <a class="navtabdis nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button">
+                                <div class="navtabi">
+                                    <i class="bi bi-bag-check"></i>
+                                </div>
+                                <div class="navtabdisplay">
+                                    <h5>Sell Products</h5>
+                                    <p>Far far away, behind the word mountains, far from the countries .</p>
+                                </div>
+                            </a>
+                            <a class="navtabdis nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button">
+                                <div class="navtabi">
+                                    <i class="bi bi-briefcase"></i>
+                                </div>
+                                <div class="navtabdisplay">
+                                    <h5>Success Every Day</h5>
+                                    <p>Far far away, behind the word mountains, far from the countries .</p>
+                                </div>
+                            </a>
+                            <a class="navtabdis nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button">
+                                <div class="navtabi">
+                                    <i class="bi bi-easel"></i>
+                                </div>
+                                <div class="navtabdisplay"> 
+                                    <h5>Bring Ideas to Life</h5>
+                                    <p>Far far away, behind the word mountains, far from the countries .</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    <div class="col-sm-md-12 col-lg-8 ">
+
+                            <div class="tab-content" id="v-pills-tabContent">
+
+                                    <div class="navtabimg tab-pane fade show active" id="v-pills-home">
+
+                                        <img src="images/navtab-1.jpg" class="d-block w-100" alt="" style="width: 100%;">
+            
+                                        <div>
+                                            <h4>Modern and clean design</h4>
+                                            <div class="row">
+                                                <div class="col-8">
+                                                    <p>
+                                                        Far far away, behind the word mountains, far from the
+                                                        countries Vokalia and Consonantia, there live the blind
+                                                        texts. Separated they live in Bookmarksgrove right at the
+                                                        coast of the Semantics, a large language ocean.
+                                                    </p>
+            
+                                                    <p>
+
+                                                        A small river named Duden flows by their place and
+                                                        supplies it with the necessary regelialia. It is a
+                                                        paradisematic country, in which roasted parts of sentences
+                                                        fly into your mouth.
+                                    
+                                                    </p>
+                                                </div>
+                                                <div class="navtabcol col-4">
+                                                    <ul>
+                                                        <li>Far far away, behind the word</li>
+                                                        <li>Far  from the countries Vokalia</li>
+                                                        <li>Separated they live in Bookmarksgrove</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                    <div class="navtabimg tab-pane fade" id="v-pills-profile">
+                                        <img src="images/navtab-2.jpg" class="d-block w-100" alt="" style="width: 100%;">
+                                    </div>
+                                
+                                
+                                    <div class="navtabimg tab-pane fade" id="v-pills-messages">
+                                        <img src="images/navtab-3.jpg" class="d-block w-100" alt="" style="width: 100%;">
+                                    </div>
+                                
+                                
+                                    <div class="navtabimg tab-pane fade" id="v-pills-settings">
+                                        <img src="images/navtab-4.jpg" class="d-block w-100" alt="" style="width: 100%;">
+                                    </div>
+                                
+
+                            </div>
+                        </div> 
+                    </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- nav tab ends -->
+
+    <!-- our servies starts -->
+
+    <div class="oursrevies container-fluid">
+        <div class="oursreviescontainer container">
+            <div class="ourrow1 row">
+
+                <div class="ourcol1 col-5">
+                    <span>Our Services</span>
+                    <h4>Far far away, behind the word mountains, far from the countries Vokalia</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <a href="" class="btn" type="button">Gets Started</a>
+                </div>
+        
+                <div class="ourcol2 col-7">
+                    <div class="ourrow2 row">
+                        <div class="ourcol3 col-6">
+                            <i class="bi bi-search"></i> <br>
+                            <span>Square</span>
+                            <p>Separated they live in Bookmarksgrove right at the coast</p>
+                        </div>
+                        <div class="ourcol4 col-6">
+                            <i class="bi bi-command"></i> <br>
+                            <span>Technology</span>
+                            <p>Separated they live in Bookmarksgrove right at the coast</p>
+                        </div>
+                    </div>
+                    <div class="ourrow3 row">
+                        <div class="ourcol5 col-6">
+                            <i class="bi bi-grid"></i> <br>
+                            <span>Brilliant Ideas</span>
+                            <p>Separated they live in Bookmarksgrove right at the coast</p>
+                        </div>
+                        <div class="ourcol6 col-6">
+                            <i class="bi bi-globe"></i> <br>
+                            <span>Blueprint</span>
+                            <p>Separated they live in Bookmarksgrove right at the coast</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- our servies ends -->
+
+    <!-- Plans starts -->
+
+    <!-- Plans ends -->
+
+    <!-- FAQ starts -->
+
+    <div class="faq container-fluid">
+        <div class="faqcontainer container">
+
+            <span>Plans</span>
+            <h3>Frequently Asked Questions</h3>
+
+            <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="faqbtn accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+                        How to download and register?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts. Separated
+                        they live in Bookmarksgrove right at the coast of the Semantics,
+                        a large language ocean.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="faqbtn accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+                        How to create your paypal account?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        A small river named Duden flows by their place and supplies it
+                        with the necessary regelialia. It is a paradisematic country, in
+                        which roasted parts of sentences fly into your mouth.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="faqbtn accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+                        How to link your paypal and bank account?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        When she reached the first hills of the Italic Mountains, she
+                        had a last view back on the skyline of her hometown
+                        Bookmarksgrove, the headline of Alphabet Village and the subline
+                        of her own road, the Line Lane. Pityful a rethoric question ran
+                        over her cheek, then she continued her way.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <!-- FAQ ends -->
+
+    <!-- Happy Customers starts -->
+
+    <div class="customer container-fluid">
+        <div class="customercontainer container">
+
+            <span>Happy Customers</span>
+            <h3>Testimonials</h3>
+            
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="cardwidth card" style="border: none;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <img src="images/customerimg1.jpg" alt="">
+                                </h5>
+                                <h6>Adam Aderson</h6>
+                                <p>
+                                    “There live the blind texts. Separated they live in
+                                    Bookmarksgrove right at the coast of the Semantics, a large
+                                    language ocean.”
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="cardwidth card" style="border: none;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <img src="images/customerimg2.jpg" alt="">
+                                </h5>
+                                <h6>Lukas Devlin</h6>
+                                <p>
+                                    “There live the blind texts. Separated they live in
+                                    Bookmarksgrove right at the coast of the Semantics, a large
+                                    language ocean.”
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="cardwidth" style="border: none;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <img src="images/customerimg3.jpg" alt="">
+                                </h5>
+                                <h6>Kayla Bryant</h6>
+                                <p>
+                                    “There live the blind texts. Separated they live in
+                                    Bookmarksgrove right at the coast of the Semantics, a large
+                                    language ocean.”
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Happy Customers ends -->
+
+    <!-- footer starts -->
+
+    <div class="footer container-fluid bg-light">
+        <div class="footercontainer container">
+            <div class="footerrow row">
+
+                <div class="col-sm-mg-12 col-lg-3 pb-sm-md-3">
+                    <span>About Us</span>
+                    <p style="padding-top: 10px;">There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <a href="" class="btnn">Learn more</a>
+                </div>
+                <div class="colulli col-sm-mg-12 col-lg-3 pb-sm-md-3">
+                    <span>Navigation</span>
+                    <div class="footerul">
+                        <ul>
+                            <li><a href="" style="padding-left: -32px;">Overview</a></li>
+                            <li><a href="" style="padding-left: -32px;">About Us</a></li>
+                            <li><a href="" style="padding-left: -32px;">Find Buyers</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">Overview</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Servies</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-mg-12 col-lg-3 pb-sm-md-3">
+                    <span>Recent Posts</span>
+                    <h6>May 3, 2020</h6>
+                    <p>There live the Blind Texts</p>
+                    <h6>May 3, 2020</h6>
+                    <p>Separated they live in Bookmarksgrove right</p>
+                </div>
+                <div class="colul col-sm-mg-12 col-lg-3 pb-sm-md-3">
+                    <span>Connect</span>
+                    <ul style="padding: 0%;">
+                        <li><i class="bi bi-facebook"></i></li>
+                        <li><i class="bi bi-twitter-x"></i></li>
+                        <li><i class="bi bi-linkedin"></i></li>
+                        <li><i class="bi bi-google"></i></li>
+                        <li><i class="bi bi-google-play"></i></li>
+                    </ul>
+                    <span>Subscribe</span> <br>
+                    <input type="text" placeholder="Enter your email">
+                </div> 
+            </div>
+
+            <div class="copyright pt-sm-4">
+                <div class="copyrightcontainer">
+                    <div class="copy1">
+                        <p>© Copyright <strong>Active</strong>. All Rights Reserved</p>
+                    </div>
+                    <div class="copy2">
+                        <p>Designed by BootstrapMade</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer ends -->
+
+
+</body>
+</html>
