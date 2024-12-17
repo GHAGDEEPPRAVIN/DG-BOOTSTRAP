@@ -1,0 +1,389 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+    /* navbar code starts */
+
+.navbar
+{
+    width: 100%;
+}
+.navbarcontainer
+{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbarcontainer .logo
+{
+    width: 40px;
+    height: 70px;
+    margin-top: 20px;
+}
+.navbarcontainer .logo img
+{
+    height: 40px;
+    width: 100%;
+}
+.navbarcontainer .navmenu ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbarcontainer .navmenu ul li
+{
+    margin-left: 30px;
+    list-style: none;
+}
+.navbarcontainer .navmenu ul li a 
+{
+    text-decoration: none;
+    color: black;
+}
+.navbarcontainer .navmenu ul li a:hover
+{
+    color: green;
+}
+.navbarcontainer .navmenu ul li a::after
+{
+    content: '';
+    border: 1px solid green;
+    display: block;
+    width: 0%;
+    visibility: hidden;
+    margin: auto;
+    transition: 0.7s;
+}
+.navbarcontainer .navmenu ul li a:hover::after
+{
+    visibility: visible;
+    width: 100%;
+}
+.navbarcontainer .search
+{
+    width: 50%;
+    margin-left: 90px;
+    display: flex;
+    justify-content: end;
+}
+.navbarcontainer .search i
+{
+    position: relative;
+    left: 35px;
+    top: 7px;
+}
+.navbarcontainer .search input
+{
+    border: 1px solid rgb(96, 96, 96);
+    border-radius: 50px;
+    width: 60%;
+    height: 36px;
+}
+.navbarcontainer .search input::placeholder
+{
+    padding-left: 50px;
+}
+.navbarcontainer .user
+{
+    height: 35px;
+    width: 35px;
+    margin-left: 50px;
+}
+.navbarcontainer .user img
+{
+    width: 100%;
+}
+
+    /* navbar code ends */
+
+    /* green banner button code starts */
+
+.greenbanner
+{
+    width: 100%;
+    background-color: #1E3832;
+}
+.greenbannercontainer
+{
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.greenbannercontainer button
+{
+    position: relative;
+    left: 84.4%;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #1E3832;
+    color: white;
+    width: 140px;
+    height: 35px;
+}
+    
+    /* green banner button code ends */
+
+#bannersides
+{
+    width: 80%;
+    margin: auto;
+    height: 220px;
+}
+#bannersides h5
+{
+    font-size: 14px;
+    margin-left: 150px;
+}
+#bannersides p
+{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+#bannersides #big
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+#bannersides #png
+{
+    position: absolute;
+    top: 0%;
+    height: 220px;
+    width: 130px;
+}
+#bannersides #png img
+{
+    width: 100%;
+}
+#bannersides #png1
+{
+    height: 220px;
+}
+#btns
+{
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    margin-left: 900px;
+}
+
+    /* Handcrafted Curations code starts */
+
+.opts
+{
+    position: relative;
+    top: 50px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.opts h2
+{
+    margin-bottom: 50px;
+}
+
+    /* Handcrafted Curations code ends */
+
+    /* Card slider code starts */
+
+.cardslider
+{
+    position: relative;
+    top: 50px;
+    height: 250px;
+    width: 100%;
+    background-color: #EDEBE9;
+}
+.cardslider h2
+{
+    padding-top: 20px;
+    margin-left: 150px;
+}
+.cardslider .contanier
+{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 15px;
+}
+
+    /* Card slider code ends */
+
+    /* learnmore code starts */
+
+.learnmore
+{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #EDEBE9;
+}
+.learnmorecontainer
+{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+}
+.learnmorecontainer h2
+{
+    font-weight: 600;
+    padding-top: 20px;
+}
+.learnmorecontainer span
+{
+    color: #096;
+    position: relative;
+    top: -30px;
+    left: 90%;
+}
+.learnmorecontainer .images
+{
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+    position: relative;
+    top: -30px;
+}
+.learnmorecontainer .images img
+{
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+}
+.learnmorecontainer .images .cc
+{
+    position: relative;
+    top: 35px;
+    left: 5px;
+    color: #096;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid #096 ;
+    width: 130px;
+}
+.learnmorecontainer .images a
+{
+    text-decoration: none;
+}
+.learnmorecontainer .images h5
+{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: -140px;
+    left: 15px;
+}
+.learnmorecontainer .images p
+{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -140px;
+    left: 15px;
+}
+.learnmorecontainer .images button
+{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -130px;
+    left: 15px;
+    width: 200px;
+    color: black;
+    border-radius: 50px;
+    height: 32px;
+    outline: none;
+    border: none;
+}
+
+    /* learnmore code ends */
+
+    /* flutter code starts */
+
+.flutter
+{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    background-color: #0E382C;
+}
+.fluttercontainer
+{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flogo
+{
+    margin-top: 170px;
+}
+.aboutus, .responsibility, .quicklinks, .socalmedia, .download 
+{
+    margin-top: 180px;
+}
+.aboutus h3, .responsibility h3, .quicklinks h3, .socalmedia h3, .download h3
+{
+    margin-left: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.aboutus li, .responsibility li, .quicklinks li, .socalmedia li, .download li
+{
+    list-style: none;
+    margin: 20px 0px;
+    width: 70%;
+}
+.aboutus a, .responsibility a, .quicklinks a, .socalmedia a, .download a
+{
+    text-decoration: none;
+    color: white;
+}
+.footerlower
+{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.footerlower .hrline
+{
+    width: 100%;
+    border: 1px solid gray;
+}
+.footerlower .parts4
+{
+    width: 100%;
+    margin-top: 30px;
+}
+.footerlower .parts4 ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerlower .parts4 ul li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+.footerlower .parts4 ul li a 
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+    /* flutter code ends */
