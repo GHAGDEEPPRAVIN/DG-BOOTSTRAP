@@ -13,3 +13,7 @@
 <h2>Starbucks</h2>
 
 <a href="https://gregarious-pastelito-e8d59b.netlify.app/"><img src="starbucks.png"></a>
+
+<h2>Admin Panel</h2>
+
+<a href="https://gregarious-pastelito-e8d59b.netlify.app/"><img src="adminpanel.png"></a>
