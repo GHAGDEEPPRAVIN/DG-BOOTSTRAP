@@ -16,4 +16,4 @@
 
 <h2>Admin Panel</h2>
 
-<a href="https://gregarious-pastelito-e8d59b.netlify.app/"><img src="adminpanel.png"></a>
+<a href="https://warm-meerkat-753954.netlify.app/"><img src="adminpanel.png"></a>
